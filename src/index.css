@@ -17,16 +17,16 @@
 } */
 
 @keyframes marquee {
-  from {
-    transform: translateX(0);
+  0% {
+    transform: translateX(0%);
   }
-  to {
+  100% {
     transform: translateX(-100%);
   }
 }
 
 .marquee-track {
-  animation: marquee 27.5s linear infinite;
+  animation: marquee 15s linear infinite;
 }
 
 @keyframes marquee {

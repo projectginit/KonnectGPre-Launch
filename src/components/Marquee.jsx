@@ -51,7 +51,7 @@ export default function Marquee() {
 
       {/* Marquee track */}
       <div className="marquee-track flex w-max whitespace-nowrap">
-        {[...Array(5)].map((_, copyIndex) => (
+        {[...Array(1)].map((_, copyIndex) => (
           <div key={copyIndex} className="flex">
             {places.map((place, index) => (
               <span
