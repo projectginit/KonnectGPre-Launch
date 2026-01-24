@@ -224,7 +224,7 @@ export default function Navbar() {
   const [mobileMenu, setMobileMenu] = useState(false);
 
   return (
-    <nav className="w-full bg-[#66023c] text-white">
+    <nav className="relative z-50 w-full  bg-[#66023c] text-white">
       <div className="mx-auto flex items-center justify-between px-4 py-4">
 
         {/* Logo */}

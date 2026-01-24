@@ -2,20 +2,8 @@ export default function BusinessCTA() {
   return (
     <section className="w-full bg-[#f7f2e7] overflow-x-hidden">
 
-      {/* Marquee strip */}
-      <div className="w-full bg-[#4b6f00] text-white overflow-hidden">
-        <div
-          className="
-            whitespace-nowrap animate-marquee
-            text-sm sm:text-base lg:text-lg
-            font-medium px-4 py-2
-          "
-        >
-          Are you a local business <span className="font-semibold">owner?</span>
-          &nbsp;|&nbsp;
-          Want to <span className="font-semibold">start</span> your own Business?
-        </div>
-      </div>
+      
+      
 
       {/* Main CTA content */}
       <div className="py-10 sm:py-14 lg:py-20 flex flex-col items-center text-center px-4 sm:px-6">
@@ -68,6 +56,17 @@ export default function BusinessCTA() {
           >
             Enter missing Category
           </button>
+        </div>
+      </div>
+
+      {/* Marquee strip */}
+      <div className="w-full bg-[#4b6f00] text-white overflow-hidden">
+        <div className="whitespace-nowrap animate-marquee
+            text-sm sm:text-base lg:text-lg
+            font-medium px-4 py-2">
+          Are you a local business <span className="font-semibold">owner?</span>
+          &nbsp;|&nbsp;
+          Want to <span className="font-semibold">start</span> your own Business?
         </div>
       </div>
     </section>

@@ -50,7 +50,10 @@ const handleSubmit = async (e) => {
 
 
   return (
-    <section className="w-full bg-[#f5f5dc] px-4 sm:px-6 lg:px-8 mt-8">
+    <section className="w-full bg-[#f5f5dc] px-4 sm:px-6 lg:px-8 mt-8 mb-8">
+      <p className="text-center p-4 mt-6 text-[#66023c] text-lg">
+        We’re verifying businesses and preparing the platform for you.
+      </p>  
       <div className="mx-auto w-full max-w-md">
         <form onSubmit={handleSubmit} className="flex flex-col gap-4">
 
