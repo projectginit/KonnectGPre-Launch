@@ -22,7 +22,7 @@ function App() {
     <>
       <Navbar/>
       <LaunchingSoon/>
-      <BusinessCTA/>
+      <NotifyForm/>
       <AboutKonnectG/>
       <Cards cardName = "Sudden Household"
             second="EMERGENCY?"
@@ -61,7 +61,7 @@ function App() {
 
       <img src={photo1} alt="" className='w-screen'/>
       <img src={photo} alt="" className='w-screen'/>
-      <NotifyForm/>
+      <BusinessCTA/>
       <Footer/>
     </>
   )

@@ -96,10 +96,10 @@ export default function Footer() {
         <div className="space-y-2">
           <h4 className="font-semibold text-base">Contact</h4>
           <p className="flex items-center gap-2">
-            <span>📞</span> 738 467 4247
+            <span>📞</span> +91 738-467-4247
           </p>
           <p className="flex items-center gap-2 break-all sm:break-normal">
-            <span>📧</span> info.projectintig@gmail.com
+            <span>📧</span> hello@konnectg.com
           </p>
         </div>
 
