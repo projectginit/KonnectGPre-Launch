@@ -56,11 +56,11 @@ function App() {
 
       <Cards cardName="And"
             second="MANY MORE UTILITIES!"
-            para="we have over 40 categories, just go & check the → Search by Categories button"
+            para="we have over 40 categories, just go & check the → 'Search by Categories' button on the top right of the page."
             bgImage={utilitiesBg}/>
 
       <img src={photo1} alt="" className='w-screen'/>
-      <img src={photo} alt="" className='w-screen'/>
+      <img src={photo} alt="" className='w-screen bg-[#f5f5dc]'/>
       <BusinessCTA/>
       <Footer/>
     </>
