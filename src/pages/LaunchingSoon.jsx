@@ -54,8 +54,6 @@ export default function LaunchingSoon() {
           className="
             absolute inset-0
             bg-black/40
-            backdrop-blur-sm
-            md:backdrop-blur-0
           "
         ></div>
 

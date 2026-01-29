@@ -1,3 +1,5 @@
+
+
 // import introVideo from "../assets/stickfigure1.mp4";
 // import introVideo1 from "../assets/stickfigure2.mp4";
 
@@ -23,10 +25,10 @@
 
 //       {/* CONTENT + VIDEO */}
 //       <div className="px-4 sm:px-8 lg:px-12 py-10 sm:py-16 lg:py-20">
-//         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+//         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
 
 //           {/* TEXT */}
-//           <div>
+//           <div className="space-y-6">
 //             <p
 //               className="
 //                 text-base sm:text-xl lg:text-[30px]
@@ -38,16 +40,13 @@
 //               <span className="font-semibold text-teal-700">konnectG</span> is a
 //               hyper-local <span className="font-semibold">discovery</span>{" "}
 //               platform that helps you find nearby,{" "}
-//               <span className="font-semibold">
-//                 verified local services
-//               </span>{" "}
-//               – quickly and without confusion
+//               <span className="font-semibold">verified local services</span> –
+//               quickly and without confusion.
 //             </p>
 
 //             <ul
 //               className="
-//                 mt-6 sm:mt-8
-//                 space-y-3 sm:space-y-4
+//                 space-y-3
 //                 text-base sm:text-lg lg:text-[26px]
 //                 text-slate-800
 //               "
@@ -68,8 +67,16 @@
 //           </div>
 
 //           {/* VIDEO */}
-//           <div className="w-full">
-//             <div className="relative w-full aspect-video rounded-xl overflow-hidden shadow-lg">
+//           <div className="flex justify-center">
+//             <div
+//               className="
+//                 w-full
+//                 max-w-sm sm:max-w-md lg:max-w-lg
+//                 aspect-square
+//                 rounded-xl
+//                 overflow-hidden
+//               "
+//             >
 //               <video
 //                 src={introVideo}
 //                 autoPlay
@@ -78,8 +85,6 @@
 //                 playsInline
 //                 className="w-full h-full object-cover"
 //               />
-//               {/* subtle overlay for readability */}
-//               <div className="absolute inset-0 bg-black/10 pointer-events-none"></div>
 //             </div>
 //           </div>
 
@@ -102,44 +107,57 @@
 //         </div>
 //       </div>
 
-//       <div className="px-4 sm:px-8 lg:px-12 py-10 sm:py-14 lg:py-12">
-//         <p
-//           className="
-//             text-base sm:text-xl lg:text-[30px]
-//             leading-relaxed
-//             text-slate-800
-//             max-w-5xl
-//           "
-//         >
-//           <span className="font-semibold">
-//             Local businesses deserve local recognition.
-//           </span>
-//           <br />
-//           Matigara Block becomes one of the first blocks to build its own online
-//           ecosystem – not controlled by big online giants.
-//         </p>
+//       <div className="px-4 sm:px-8 lg:px-12 py-10 sm:py-16 lg:py-20">
+//         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
 
-//         <ul
-//           className="
-//             mt-6 sm:mt-8 lg:mt-10
-//             space-y-3 sm:space-y-4
-//             text-base sm:text-lg lg:text-[26px]
-//             text-slate-800
-//           "
-//         >
-//           <li className="flex gap-2">
-//             <span className="text-[#66023c]">•</span>
-//             A <span className="font-semibold">shield</span> for local businesses.
-//           </li>
-//           <li className="flex gap-2">
-//             <span className="text-[#66023c]">•</span>
-//             A helping hand for{" "}
-//             <span className="font-semibold">local families</span>.
-//           </li>
-//         </ul>
-//       </div>
-//       <div className="w-full">
-//             <div className="relative w-full aspect-video rounded-xl overflow-hidden shadow-lg">
+//           {/* TEXT */}
+//           <div className="space-y-6">
+//             <p
+//               className="
+//                 text-base sm:text-xl lg:text-[30px]
+//                 leading-relaxed
+//                 text-slate-800
+//                 max-w-5xl
+//               "
+//             >
+//               <span className="font-semibold">
+//                 Local businesses deserve local recognition.
+//               </span>
+//               <br />
+//               Matigara Block becomes one of the first blocks to build its own
+//               online ecosystem – not controlled by big online giants.
+//             </p>
+
+//             <ul
+//               className="
+//                 space-y-3
+//                 text-base sm:text-lg lg:text-[26px]
+//                 text-slate-800
+//               "
+//             >
+//               <li className="flex gap-2">
+//                 <span className="text-[#66023c]">•</span>
+//                 A <span className="font-semibold">shield</span> for local businesses.
+//               </li>
+//               <li className="flex gap-2">
+//                 <span className="text-[#66023c]">•</span>
+//                 A helping hand for{" "}
+//                 <span className="font-semibold">local families</span>.
+//               </li>
+//             </ul>
+//           </div>
+
+//           {/* VIDEO */}
+//           <div className="flex justify-center">
+//             <div
+//               className="
+//                 w-full
+//                 max-w-sm sm:max-w-md lg:max-w-lg
+//                 aspect-square
+//                 rounded-xl
+//                 overflow-hidden
+//               "
+//             >
 //               <video
 //                 src={introVideo1}
 //                 autoPlay
@@ -148,10 +166,11 @@
 //                 playsInline
 //                 className="w-full h-full object-cover"
 //               />
-//               {/* subtle overlay for readability */}
-//               <div className="absolute inset-0 bg-black/10 pointer-events-none"></div>
 //             </div>
 //           </div>
+
+//         </div>
+//       </div>
 
 //     </section>
 //   );
@@ -182,10 +201,16 @@ export default function AboutKonnectG() {
 
       {/* CONTENT + VIDEO */}
       <div className="px-4 sm:px-8 lg:px-12 py-10 sm:py-16 lg:py-20">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-
+        <div
+          className="
+            grid grid-cols-[1fr_auto]
+            md:grid-cols-2
+            gap-6 md:gap-12
+            items-center
+          "
+        >
           {/* TEXT */}
-          <div className="space-y-6">
+          <div className="space-y-5">
             <p
               className="
                 text-base sm:text-xl lg:text-[30px]
@@ -224,12 +249,13 @@ export default function AboutKonnectG() {
           </div>
 
           {/* VIDEO */}
-          <div className="flex justify-center">
+          <div className="flex justify-end md:justify-center">
             <div
               className="
-                w-full
-                max-w-sm sm:max-w-md lg:max-w-lg
                 aspect-square
+                w-20 sm:w-28
+                md:w-56
+                lg:w-72
                 rounded-xl
                 overflow-hidden
               "
@@ -244,7 +270,6 @@ export default function AboutKonnectG() {
               />
             </div>
           </div>
-
         </div>
       </div>
 
@@ -265,10 +290,16 @@ export default function AboutKonnectG() {
       </div>
 
       <div className="px-4 sm:px-8 lg:px-12 py-10 sm:py-16 lg:py-20">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-
+        <div
+          className="
+            grid grid-cols-[1fr_auto]
+            md:grid-cols-2
+            gap-6 md:gap-12
+            items-center
+          "
+        >
           {/* TEXT */}
-          <div className="space-y-6">
+          <div className="space-y-5">
             <p
               className="
                 text-base sm:text-xl lg:text-[30px]
@@ -305,12 +336,13 @@ export default function AboutKonnectG() {
           </div>
 
           {/* VIDEO */}
-          <div className="flex justify-center">
+          <div className="flex justify-end md:justify-center">
             <div
               className="
-                w-full
-                max-w-sm sm:max-w-md lg:max-w-lg
                 aspect-square
+                w-20 sm:w-28
+                md:w-56
+                lg:w-72
                 rounded-xl
                 overflow-hidden
               "
@@ -325,7 +357,6 @@ export default function AboutKonnectG() {
               />
             </div>
           </div>
-
         </div>
       </div>
 
