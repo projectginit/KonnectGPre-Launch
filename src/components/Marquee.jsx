@@ -39,7 +39,7 @@ export default function Marquee() {
     "Matigara-1",
     "Matigara-2",
     "Atharokhai",
-    "Khawakhari",
+    "Patharghata",
     "Champasari",
   ];
 
