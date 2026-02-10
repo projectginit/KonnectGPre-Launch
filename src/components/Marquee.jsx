@@ -1,39 +1,3 @@
-// export default function Marquee() {
-//   const places = [
-//     "Matigara-1",
-//     "Matigara-2",
-//     "Atharokhai",
-//     "Khawakhari",
-//     "Champasari",
-//   ];
-
-//   return (
-//     <div className="w-full overflow-hidden bg-[#4f7a00] text-white">
-//       <div className="flex whitespace-nowrap animate-marquee-ltr">
-        
-//         {/* First copy */}
-//         <div className="flex">
-//           {places.map((place, index) => (
-//             <span key={`a-${index}`} className="mx-6 text-lg">
-//               {place}
-//             </span>
-//           ))}
-//         </div>
-
-//         {/* Second copy */}
-//         <div className="flex">
-//           {places.map((place, index) => (
-//             <span key={`b-${index}`} className="mx-6 text-lg">
-//               {place}
-//             </span>
-//           ))}
-//         </div>
-
-//       </div>
-//     </div>
-//   );
-// }
-
 export default function Marquee() {
   const places = [
     "Matigara-1",
@@ -51,7 +15,7 @@ export default function Marquee() {
 
       {/* Marquee track */}
       <div className="marquee-track flex w-max whitespace-nowrap">
-        {[...Array(1)].map((_, copyIndex) => (
+        {[...Array(2)].map((_, copyIndex) => (
           <div key={copyIndex} className="flex">
             {places.map((place, index) => (
               <span
