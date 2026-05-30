@@ -34,7 +34,7 @@ export default function Footer() {
           <p className="flex items-center gap-3">
             <img src={facebookIcon} alt="Facebook" className="h-4 w-4" />
             <a
-              href="https://facebook.com/YOUR_PAGE_USERNAME"
+              href="https://facebook.com/profile.php?id=61590162911845"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -60,6 +60,8 @@ export default function Footer() {
               hello@konnectg.com
             </a>
           </p>
+        </div>
+
 
         {/* Promise */}
         <div className="space-y-2">
