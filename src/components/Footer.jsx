@@ -22,12 +22,24 @@ export default function Footer() {
         <div className="space-y-2">
           <p className="flex items-center gap-3">
             <img src={instagramIcon} alt="Instagram" className="h-4 w-4" />
-            @hello.konnectg
+            <a
+              href="https://instagram.com/konnectg.local"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              @konnectg.local
+            </a>
           </p>
 
           <p className="flex items-center gap-3">
             <img src={facebookIcon} alt="Facebook" className="h-4 w-4" />
-            konnectG
+            <a
+              href="https://facebook.com/YOUR_PAGE_USERNAME"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              konnectG
+            </a>
           </p>
         </div>
 
