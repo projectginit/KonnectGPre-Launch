@@ -55,7 +55,10 @@ export default function BusinessCTA() {
   };
 
   return (
-    <section className="w-full bg-[#f5f5dc] overflow-hidden">
+    <section
+      id="list-business"
+      className="w-full bg-[#f5f5dc] overflow-hidden"
+    >
 
       {/* ✅ MARQUEE — FIXED AT TOP */}
       <div className="w-full bg-[#4b6f00] text-white">
