@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const SHEET_URL =
   "https://script.google.com/macros/s/AKfycbx4uZHC_gxyXce6S0jh9CsD1Dg6H8jF3IUx6poCVxo8HtoukRbPe6ul3Q2mHfascNh5/exec";
@@ -15,6 +15,12 @@ export default function BusinessCTA() {
     phone: "",
     category: "",
   });
+
+  useEffect(() => {
+  if (window.location.hash === "#list-business-open") {
+      setActiveForm("business");
+    }
+  }, []);
 
   const submitForm = async (payload) => {
     setLoading(true);
@@ -56,7 +62,7 @@ export default function BusinessCTA() {
 
   return (
     <section
-      id="list-business"
+      id="list-business-open"
       className="w-full bg-[#f5f5dc] overflow-hidden"
     >
 
