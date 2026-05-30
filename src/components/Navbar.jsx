@@ -452,7 +452,7 @@ export default function Navbar() {
 
           {/* CTA */}
           <a
-            href="#list-business-open"
+            href="#list-business"
             className="rounded-lg bg-white px-4 py-2 font-semibold text-[#66023c] hover:bg-gray-100 transition"
           >
             List Your Business
@@ -504,7 +504,7 @@ export default function Navbar() {
           )}
 
             <a
-              href="#list-business-open"
+              href="#list-business"
               className="mt-4 block w-full rounded-lg bg-white px-4 py-3 font-semibold text-[#66023c] text-center"
             >
               List Your Business

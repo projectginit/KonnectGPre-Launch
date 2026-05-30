@@ -34,7 +34,7 @@ export default function Footer() {
           <p className="flex items-center gap-3">
             <img src={facebookIcon} alt="Facebook" className="h-4 w-4" />
             <a
-              href="https://www.facebook.com/share/1HjYfAyp3G/"
+              href="https://facebook.com/profile.php?id=61590162911845"
               target="_blank"
               rel="noopener noreferrer"
             >
