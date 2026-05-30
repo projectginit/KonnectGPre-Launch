@@ -1,3 +1,6 @@
+import { useEffect, useState } from "react"; //for the splash screen effect
+import SplashScreen from "./components/SplashScreen";
+
 import Navbar from './components/Navbar'
 import LaunchingSoon from './pages/LaunchingSoon'
 import AboutKonnectG from './pages/AboutKonnectG'
@@ -18,6 +21,20 @@ import utilitiesBg from './assets/cards-bg/utilities.png'
 
 
 function App() {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 2200);
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (loading) {
+    return <SplashScreen />;
+  }
+
   return (
     <>
       <Navbar/>
