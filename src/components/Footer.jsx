@@ -22,12 +22,24 @@ export default function Footer() {
         <div className="space-y-2">
           <p className="flex items-center gap-3">
             <img src={instagramIcon} alt="Instagram" className="h-4 w-4" />
-            @hello.konnectg
+            <a
+              href="https://instagram.com/konnectg.local"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              @konnectg.local
+            </a>
           </p>
 
           <p className="flex items-center gap-3">
             <img src={facebookIcon} alt="Facebook" className="h-4 w-4" />
-            konnectG
+            <a
+              href="https://facebook.com/profile.php?id=61590162911845"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              konnectG
+            </a>
           </p>
         </div>
 
@@ -37,14 +49,19 @@ export default function Footer() {
 
           <p className="flex items-center gap-3">
             <img src={phoneIcon} alt="Phone" className="h-4 w-4" />
-            +91 738-467-4247
+            <a href="tel:+917384674247">
+              +91 738-467-4247
+            </a>
           </p>
 
           <p className="flex items-center gap-3 break-all sm:break-normal">
             <img src={emailIcon} alt="Email" className="h-4 w-4" />
-            hello@konnectg.com
+            <a href="mailto:hello@konnectg.com">
+              hello@konnectg.com
+            </a>
           </p>
         </div>
+
 
         {/* Promise */}
         <div className="space-y-2">

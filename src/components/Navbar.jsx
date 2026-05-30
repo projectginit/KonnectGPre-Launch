@@ -451,9 +451,12 @@ export default function Navbar() {
           <LanguagePill />
 
           {/* CTA */}
-          <button className="rounded-lg bg-white px-4 py-2 font-semibold text-[#66023c] hover:bg-gray-100 transition">
+          <a
+            href="#list-business"
+            className="rounded-lg bg-white px-4 py-2 font-semibold text-[#66023c] hover:bg-gray-100 transition"
+          >
             List Your Business
-          </button>
+          </a>
         </div>
 
         {/* Mobile Hamburger */}
@@ -500,9 +503,12 @@ export default function Navbar() {
             </div>
           )}
 
-          <button className="mt-4 w-full rounded-lg bg-white px-4 py-3 font-semibold text-[#66023c]">
-            List Your Business
-          </button>
+            <a
+              href="#list-business"
+              className="mt-4 block w-full rounded-lg bg-white px-4 py-3 font-semibold text-[#66023c] text-center"
+            >
+              List Your Business
+            </a>
         </div>
       )}
     </nav>
