@@ -1,4 +1,4 @@
-import logo from "../assets/konG_splash_screen.png";
+import logo from "../assets/kong_splash_screen.jpeg";
 
 export default function SplashScreen() {
   return (
